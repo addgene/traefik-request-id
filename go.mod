@@ -1,4 +1,4 @@
-module github.com/ZeroGachis/traefik-request-id
+module github.com/addgene/traefik-request-id
 
 go 1.19
 
