@@ -32,7 +32,7 @@ jobs:
 
       # https://github.com/marketplace/actions/cache
       - name: Cache Go modules
-        uses: actions/cache@v3
+        uses: actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7 # v5
         with:
           path: ${{ github.workspace }}/go/pkg/mod
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
