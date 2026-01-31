@@ -20,5 +20,5 @@ permissions:
 
 jobs:
   security_scan:
-    uses: ZeroGachis/.github/.github/workflows/security_scan_repo.yml@cdd00be3df78755fb8b4e6e4756402d6231478d0 # v4
+    uses: ZeroGachis/.github/.github/workflows/security_scan_repo.yml@95fdf796198b09a391a7155c37a88d387dd68da3 # v5
     secrets: inherit
